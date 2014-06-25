@@ -23,11 +23,24 @@ logger.warning('This is a warninglog message');
 logger.error('This is an error log message');
 ```
 
-Wille output a message with colors and icons to identify what's going on, and
+Will output a message with colors and icons to identify what's going on, and
 the date/space to know where and when it happens
 
 ```
 [application] 2014-06-25 13:38:11 → Mongoose connected to database on "main"
+```
+
+You can also change the prefix log like that :
+
+```
+logger.info('The message', null, 'my space name');
+```
+
+And you can pass an object to get its dump in the console
+
+```
+var objectToDebug = {};
+logger.info('The message', objectToDebug);
 ```
 
 ### Note
