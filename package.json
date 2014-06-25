@@ -1,0 +1,17 @@
+{
+  "name": "node-human-logger",
+  "version": "0.0.1",
+  "description": "Simple console logger in human",
+  "repository": "https://github.com/tilap/node-human-logger",
+  "keywords": [
+    "logger"
+  ],
+  "author": "Tilap",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "colors": "^0.6.2",
+    "moment": "^2.7.0"
+  }
+}
