@@ -1,6 +1,6 @@
 {
   "name": "node-human-logger",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simple console logger in human",
   "repository": "https://github.com/tilap/node-human-logger",
   "keywords": [
